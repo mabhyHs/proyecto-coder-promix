@@ -6,7 +6,7 @@
 # Node artifact files
 node_modules/
 dist/
-
+sass/node_modules/balanced-match/README.md
 # Compiled Java class files
 *.class
 
