@@ -550,7 +550,7 @@ a {
 header.masthead {
   padding-top: 8rem;
   padding-bottom: calc(21rem - 7.5rem);
-  background: url("./Asset/background360.jpg");
+  background: url("/Asset/background360.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center;
@@ -837,7 +837,7 @@ iframe {
     padding-top: 6.5rem;
     padding-bottom: 0;
     padding-bottom: calc(61rem - 5.5rem);
-    background: url("./Asset/backgroundPromix.jpg");
+    background: url("/Asset/backgroundPromix.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
