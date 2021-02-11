@@ -479,13 +479,14 @@ a {
 header.masthead {
   padding-top: 8rem;
   padding-bottom: calc(21rem - 7.5rem);
-  background: url("/asset/background360.jpg");
+  background: url("/asset/sandwich-bg-full.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center;
   background-size: cover; }
   header.masthead h1 {
-    font-size: 4.5rem; }
+    font-size: 4.5rem;
+    font-weight: bolder; }
 
 a {
   color: #000; }
@@ -548,11 +549,11 @@ nav .menu {
   transform: translateY(15rem);
   animation: up 500ms linear forwards;
   color: whitesmoke;
-  text-shadow: 1px 1px 8px #333333; }
+  text-shadow: 1px 1px 3px #333333; }
 
 .contentBanner h2 {
   color: #f1a15b;
-  text-shadow: 1px 1px 8px #333333; }
+  text-shadow: 1px 1px 3px #333333; }
 
 .btn-green-block {
   font-family: 'Philosopher', sans-serif;
@@ -585,12 +586,12 @@ nav .menu {
   .social-banner i {
     font-size: 4rem;
     padding: 7px;
-    text-shadow: 1px 1px 8px #333333; }
+    text-shadow: 1px 1px 3px #333333; }
 
 .aboutUs img {
   width: 100%;
   background-color: whitesmoke;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); }
+  box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.2); }
 
 .owners p {
   text-align: center; }
@@ -608,7 +609,7 @@ nav .menu {
   margin: 20px auto;
   padding-top: 15px;
   text-align: center;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); }
+  box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.2); }
   .card-custom:hover {
     background-color: #ffc107; }
   .card-custom button.btn-green {
@@ -702,7 +703,7 @@ iframe {
     padding-top: 6.5rem;
     padding-bottom: 0;
     padding-bottom: calc(61rem - 5.5rem);
-    background: url("/asset/backgroundPromix.jpg");
+    background: url("/asset/sandwich-bg-full.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; }
@@ -853,8 +854,9 @@ iframe {
       transform: translate3d(20px, 30px, 250px); }
     header.masthead .btn-green-block {
       background-color: transparent;
-      font-size: 2rem;
-      text-decoration: underline; }
+      font-size: 3rem;
+      text-decoration: underline;
+      text-shadow: 1px 1px 3px #333333; }
       header.masthead .btn-green-block:hover {
         color: #f1a15b; }
   .logo img:hover {
