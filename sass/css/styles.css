@@ -474,6 +474,7 @@ a {
   margin: 0 auto; }
 
 .page-section {
+<<<<<<< HEAD
   padding: 12rem 0; }
 
 header.masthead {
@@ -486,6 +487,23 @@ header.masthead {
   background-position: center;
   background-size: cover; }
   header.masthead h1 {
+=======
+    padding: 12rem 0;
+}
+
+.masthead {
+    height: 100vh;
+    padding-top: 8rem;
+    padding-bottom: calc(21rem - 7.5rem);
+    background-image: url("asset/sandwich-bg-full.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+}
+
+.masthead h1 {
+>>>>>>> efcdb17f150a22520e9a3dd7f6ce6594f52291c8
     font-size: 4.5rem;
     font-weight: bolder; }
 
@@ -883,6 +901,7 @@ iframe {
   .owners {
     margin-top: 45px; }
     .owners p {
+<<<<<<< HEAD
       width: 700px;
       margin-top: 30px;
       text-align: center;
@@ -902,3 +921,31 @@ iframe {
   .vibrate:hover {
     -webkit-animation: vibration .3s 1;
     animation: vibration .3s 1; } }
+=======
+        width: 700px;
+        margin-top: 30px;
+        text-align: center;
+        text-align: left;
+    }
+    .productCards {
+        padding-top: 120px;
+    }
+    .col-25 {
+        float: left;
+        width: 25%;
+        margin-top: 6px;
+    }
+    .col-75 {
+        float: left;
+        width: 75%;
+        margin-top: 6px;
+    }
+    iframe {
+        height: 450px;
+    }
+    .vibrate:hover {
+        -webkit-animation: vibration .3s 1;
+        animation: vibration .3s 1;
+    }
+}
+>>>>>>> efcdb17f150a22520e9a3dd7f6ce6594f52291c8
