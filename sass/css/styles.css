@@ -476,7 +476,7 @@ a {
 .page-section {
   padding: 12rem 0; }
 
-header.masthead {
+.masthead {
   height: 100vh;
   padding-top: 8rem;
   padding-bottom: calc(21rem - 7.5rem);
@@ -485,7 +485,7 @@ header.masthead {
   background-attachment: scroll;
   background-position: center;
   background-size: cover; }
-  header.masthead h1 {
+  .masthead h1 {
     font-size: 4.5rem;
     font-weight: bolder; }
 

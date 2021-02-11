@@ -1,7 +1,7 @@
 @import'_normalize';
 @import'_variables';
 @import'_general';
-@import'_footer.scss';
+@import'_footer';
 @-webkit-keyframes rotate360 {
     0% {
         -webkit-transform: rotate(0deg);
@@ -93,7 +93,7 @@
     padding: 12rem 0;
 }
 
-header.masthead {
+.masthead {
     height: 100vh;
     padding-top: 8rem;
     padding-bottom: calc(21rem - 7.5rem);
