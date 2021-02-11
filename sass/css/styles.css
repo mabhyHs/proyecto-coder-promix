@@ -636,7 +636,7 @@ a {
     height: 100vh;
     padding-top: 8rem;
     padding-bottom: calc(21rem - 7.5rem);
-    background-image: url("../../asset/sandwich-bg-full.jpg");
+    background-image: url("asset/sandwich-bg-full.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center;
