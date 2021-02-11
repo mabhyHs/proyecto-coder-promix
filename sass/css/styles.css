@@ -923,10 +923,10 @@ iframe {
         padding-top: 6.5rem;
         padding-bottom: 0;
         padding-bottom: calc(61rem - 5.5rem);
-        background-image: url('/asset/sandwich-bg-full.jpg');
-        background-repeat: no-repeat;
+        background-image: url("/asset/sandwich-bg-full.jpg");
+        background-color: black;
         background-position: center;
-        background-size: cover;
+        background-repeat: no-repeat;
     }
     header.masthead h1 {
         font-size: 8rem;
