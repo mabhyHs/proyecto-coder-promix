@@ -94,6 +94,10 @@
         padding: 12rem 0;
     }
     
+    .text-gray {
+        color: $text-gray;
+    }
+    
     //NAVBAR
     .navbar-brand {
         img {
@@ -333,10 +337,9 @@
     
     //HELP SECTION
     .container-center {
-        width: 90%;
         margin: 0 auto;
         padding-top: 90px;
-        padding-bottom: 50px;
+        padding-bottom: 60px;
     }
     
     form {
