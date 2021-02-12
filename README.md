@@ -6,3 +6,4 @@ primer proyecto de Coderhouse de la carrera Frontend developer donde se pone en 
 * CSS
 * Boostrap
 * Javascript
+![Imagen de vista en 3 dispositivos](https://github.com/mabhyHs/proyecto-coder-promix/blob/master/asset/imagenGithub.png)
