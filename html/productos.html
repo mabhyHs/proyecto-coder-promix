@@ -8,7 +8,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- boostrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <!-- style -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="../sass/css/styles.css">
@@ -20,7 +20,7 @@
 
 
     <title>Promix - Productos</title>
-    <link rel="shortcut icon" href="../asset/icon-tab.png">
+    <link rel="shortcut icon" href="../asset/logotab-webp.webp">
 
 </head>
 
@@ -28,7 +28,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
             <div class="container">
-                <a class="navbar-brand logo" href="../index.html"><img class="company-logo" src="../asset/logopx.png" alt="logo company"></a>
+                <a class="navbar-brand logo" href="../index.html"><img width="50" height="50" class="company-logo" src="../asset/logopx-webp.webp" alt="logo company"></a>
 
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -51,76 +51,78 @@
     <div class="container-center mb-5 mt-5 container">
         <!-- Productos -->
         <main class="products" id="products">
-            <h1>Nuestros Productos</h1>
+            <h2 class="text-center text-uppercase">Nuestros Productos</h2>
             <p class="text-gray text-center textWidth">Nuestros Sandwiches de miga son veganos, el jamón y queso esta hecho a base de arroz, condimentados para emular sus sabores correspondientes; están libres de colorantes y conservantes, el color del "Jamón" es hecho con pimentón ahumado y el
-                queso con Cúrcuma.<br> La mayonesa también es casera a base de aquafaba. El pan es lo único que compramos, es un pan de miga convencional pero libre de ingredientes de origen animal. <br>Tenemos 4 variedades:
+                queso con Cúrcuma.<br> La mayonesa también es casera a base de aquafaba. El pan es un pan de miga convencional pero libre de ingredientes de origen animal.</p>
+            <p class="text-gray text-center textWidth">ventas se realizan por docena o al por mayor, esa información se puede ver en la sección
+                <a href="./ayuda.html" class="i-color-orange"> ayuda</a>. Tenemos 4 variedades:</p>
 
-                <section class="container mt-5">
-                    <div class="row">
+            <section class="container mt-5">
+                <div class="row">
 
-                        <div class="col-lg-3 col-sm-6 mb-4" data-aos="zoom-out-down">
-                            <div class="products-item mt-5">
-                                <a class="products-link" data-toggle="modal" href="#productsModal1">
-                                    <div class="products-hover">
-                                        <div class="products-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                    </div>
-                                    <img width="100%" height="230" src="../asset/jamonyqueso.png" class="mx-auto d-block" alt="sandwich de jamon y queso">
-                                </a>
-                                <div class="products-caption">
-                                    <div class="products-caption-heading">Jamón y Queso</div>
-                                    <div class="products-caption-subheading text-gray">Jamón y queso vegano</div>
-
+                    <div class="col-lg-3 col-sm-6 mb-4" data-aos="zoom-out-down">
+                        <div class="products-item mt-5">
+                            <a class="products-link" data-toggle="modal" href="#productsModal1">
+                                <div class="products-hover">
+                                    <div class="products-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
+                                <img width="100%" height="230" src="../asset/jamonyqueso-web.webp" class="mx-auto d-block img-fluid" alt="sandwich de jamon y queso">
+                            </a>
+                            <div class="products-caption">
+                                <div class="products-caption-heading">Jamón y Queso</div>
+                                <div class="products-caption-subheading text-gray">Para conocer los Ingredientes presione la imagen</div>
+
                             </div>
                         </div>
-
-                        <div class="col-lg-3 col-sm-6 mb-4" data-aos="zoom-out-down">
-                            <div class="products-item mt-5">
-                                <a class="products-link" data-toggle="modal" href="#productsModal2">
-                                    <div class="products-hover">
-                                        <div class="products-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                    </div>
-                                    <img width="100%" height="230" src="../asset/rucula.jpg" class="mx-auto d-block" alt="sandwich de rucula">
-                                </a>
-                                <div class="products-caption">
-                                    <div class="products-caption-heading">Rúcula</div>
-                                    <div class="products-caption-subheading text-gray">Rúcula, tomate y no huevo</div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-sm-6 mb-4" data-aos="zoom-out-down">
-                            <div class="products-item mt-5">
-                                <a class="products-link" data-toggle="modal" href="#productsModal3">
-                                    <div class="products-hover">
-                                        <div class="products-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                    </div>
-                                    <img width="100%" height="230" src="../asset/quesoyverduras.jpg" class="mx-auto d-block" alt="sandwich de Verduras">
-                                </a>
-                                <div class="products-caption">
-                                    <div class="products-caption-heading">Verduras</div>
-                                    <div class="products-caption-subheading text-gray">queso vegano, tomate y no huevo</div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0" data-aos="zoom-out-down">
-                            <div class="products-item mt-5">
-                                <a class="products-link" data-toggle="modal" href="#productsModal4">
-                                    <div class="products-hover">
-                                        <div class="products-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                    </div>
-                                    <img width="100%" height="230" src="../asset/aceitunas.jpg" class="mx-auto d-block" alt="sandwich de aceitunas">
-                                </a>
-                                <div class="products-caption">
-                                    <div class="products-caption-heading">Aceitunas </div>
-                                    <div class="products-caption-subheading text-gray">Aceitunas, queso y no huevo</div>
-                                </div>
-                            </div>
-                        </div>
-
                     </div>
-                </section>
+
+                    <div class="col-lg-3 col-sm-6 mb-4" data-aos="zoom-out-down">
+                        <div class="products-item mt-5">
+                            <a class="products-link" data-toggle="modal" href="#productsModal2">
+                                <div class="products-hover">
+                                    <div class="products-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img width="100%" height="230" src="../asset/rucula-web.webp" class="mx-auto d-block img-fluid " alt="sandwich de rucula">
+                            </a>
+                            <div class="products-caption">
+                                <div class="products-caption-heading">Rúcula</div>
+                                <div class="products-caption-subheading text-gray">Para conocer los Ingredientes presione la imagen</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0" data-aos="zoom-out-down">
+                        <div class="products-item mt-5">
+                            <a class="products-link" data-toggle="modal" href="#productsModal4">
+                                <div class="products-hover">
+                                    <div class="products-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img width="100%" height="230" src="../asset/aceitunas-web.webp" class="mx-auto d-block img-fluid " alt="sandwich de aceitunas">
+                            </a>
+                            <div class="products-caption">
+                                <div class="products-caption-heading">Aceitunas </div>
+                                <div class="products-caption-subheading text-gray">Para conocer los Ingredientes presione la imagen</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6 mb-4" data-aos="zoom-out-down">
+                        <div class="products-item mt-5">
+                            <a class="products-link" data-toggle="modal" href="#productsModal3">
+                                <div class="products-hover">
+                                    <div class="products-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img width="100%" height="230" src="../asset/verduras-web.webp" class="mx-auto d-block img-fluid" alt="sandwich de Verduras">
+                            </a>
+                            <div class="products-caption">
+                                <div class="products-caption-heading">Verduras</div>
+                                <div class="products-caption-subheading text-gray">Para conocer los Ingredientes presione la imagen</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
         </main>
     </div>
 
@@ -142,16 +144,21 @@
 
     <!-- Modal 1-->
     <div class="products-modal modal fade" id="productsModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal"><img src="../asset/close-icon.svg" alt="Close modal" /></div>
+                <div class="close-modal" data-dismiss="modal"><img width="30" height="30" src="../asset/close-icon.svg" alt="Close modal" /></div>
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <h2>Sandwich de Jamón y queso</h2>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit repudiandae autem voluptate dolor enim consectetur sequi. Cumque, voluptas id? Labore dolore, modi sapiente nisi, enim laboriosam beatae illum, amet laudantium
-                                    cum in necessitatibus maxime rerum odit aliquid atque itaque aliquam sed velit impedit voluptas! Suscipit!</p>
+                                <h3>Ingredientes</h3>
+                                <ul>
+                                    <li>Jamón vegetal</li>
+                                    <li>Queso vegetal</li>
+                                    <li>Mayonesa vegana</li>
+                                </ul>
+                                <p>Opcional: Pan blanco ó Salvado</p>
                             </div>
                         </div>
                     </div>
@@ -161,16 +168,22 @@
     </div>
     <!-- Modal 2-->
     <div class="products-modal modal fade" id="productsModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal"><img src="../asset/close-icon.svg" alt="Close modal" /></div>
+                <div class="close-modal" data-dismiss="modal"><img width="30" height="30" src="../asset/close-icon.svg" alt="Close modal" /></div>
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <h2>Sandwich de Rúcula</h2>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit repudiandae autem voluptate dolor enim consectetur sequi. Cumque, voluptas id? Labore dolore, modi sapiente nisi, enim laboriosam beatae illum, amet laudantium
-                                    cum in necessitatibus maxime rerum odit aliquid atque itaque aliquam sed velit impedit voluptas! Suscipit!</p>
+                                <h3>Ingredientes</h3>
+                                <ul>
+                                    <li>Jamón Vegetal</li>
+                                    <li>Tomate</li>
+                                    <li>Rúcula</li>
+                                    <li>Mayonesa vegana</li>
+                                </ul>
+                                <p>Sólo pan blanco</p>
                             </div>
                         </div>
                     </div>
@@ -180,16 +193,22 @@
     </div>
     <!-- Modal 3-->
     <div class="products-modal modal fade" id="productsModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal"><img src="../asset/close-icon.svg" alt="Close modal" /></div>
+                <div class="close-modal" data-dismiss="modal"><img width="30" height="30" src="../asset/close-icon.svg" alt="Close modal" /></div>
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <h2>Sandwich de Verduras</h2>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit repudiandae autem voluptate dolor enim consectetur sequi. Cumque, voluptas id? Labore dolore, modi sapiente nisi, enim laboriosam beatae illum, amet laudantium
-                                    cum in necessitatibus maxime rerum odit aliquid atque itaque aliquam sed velit impedit voluptas! Suscipit!</p>
+                                <h3>Ingredientes</h3>
+                                <ul>
+                                    <li>Queso Vegetal</li>
+                                    <li>Tomate</li>
+                                    <li>Lechuga</li>
+                                    <li>Mayonesa vegana</li>
+                                </ul>
+                                <p>Sólo pan blanco</p>
                             </div>
                         </div>
                     </div>
@@ -199,16 +218,22 @@
     </div>
     <!-- Modal 4-->
     <div class="products-modal modal fade" id="productsModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal"><img src="../asset/close-icon.svg" alt="Close modal" /></div>
+                <div class="close-modal" data-dismiss="modal"><img width="30" height="30" src="../asset/close-icon.svg" alt="Close modal" /></div>
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <h2>Sandwich de Aceitunas</h2>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit repudiandae autem voluptate dolor enim consectetur sequi. Cumque, voluptas id? Labore dolore, modi sapiente nisi, enim laboriosam beatae illum, amet laudantium
-                                    cum in necessitatibus maxime rerum odit aliquid atque itaque aliquam sed velit impedit voluptas! Suscipit!</p>
+                                <h3>Ingredientes</h3>
+                                <ul>
+                                    <li>Queso Vegetal</li>
+                                    <li>No Huevo (tofu)</li>
+                                    <li>Aceitunas</li>
+                                    <li>Mayonesa vegana</li>
+                                </ul>
+                                <p>Sólo pan blanco</p>
                             </div>
                         </div>
                     </div>
@@ -219,11 +244,8 @@
 
     <!-- Bootstrap JS-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!--  plugin JS-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-    <!-- custom JS-->
-    <script src="../js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js " integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    <!-- AOS -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init({
