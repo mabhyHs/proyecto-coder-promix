@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -10,7 +10,8 @@
     <!-- boostrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <!-- style -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
     <link rel="stylesheet" href="../sass/css/styles.css">
 
     <!-- Fonts -->
@@ -33,13 +34,13 @@
 
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto my-2 my-lg-0">
+                    <ul class="navbar-nav text-uppercase ml-auto my-2 my-lg-0">
 
-                        <li class="nav-item"><a class="nav-link text-uppercase" href="../index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link text-uppercase" href="./nosotros.html">Nosotros</a></li>
-                        <li class="nav-item"><a class="nav-link text-uppercase" href="./productos.html">Productos</a></li>
-                        <li class="nav-item"><a class="nav-link text-uppercase" href="./contacto.html">Contacto</a></li>
-                        <li class="nav-item"><a class="nav-link text-uppercase" href="./ayuda.html">Ayuda</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./nosotros.html">Nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./productos.html">Productos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./contacto.html">Contacto</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./ayuda.html">Ayuda</a></li>
 
                     </ul>
                 </div>
@@ -47,8 +48,7 @@
         </nav>
     </header>
 
-
-    <div class="page-section">
+    <section class="page-section">
         <div class="container ">
             <div class="row justify-content-center mb-5">
                 <div class="col-lg-6 text-center">
@@ -59,7 +59,7 @@
 
             <div class="container text-gray">
                 <div class="row align-items-center">
-                    <div class="col-lg-6 order-2 order-lg-1 mb-5" data-aos="fade-right">
+                    <div class="col-lg-6 order-2 order-lg-1 mb-5 animate__animated animate__bounceInLeft">
                         <p class="mb-3 textWidth">Hola comunidad! Somos Damián y Ana, vivimos en Córdoba, Argentina, fanáticos amantes de los sándwiches de miga y de la cocina vegetariana/vegana.</p>
                         <p class="mb-3 textWidth">Nuestros inicios se remontan allá por Diciembre del 2016, ya que al hacer nuestra transición al veganismo nos encontramos con que lo que más extrañábamos y se nos dificultaba conseguir en negocios era justamente eran nuestros amados
                             Sándwiches de miga, por lo que tomamos la decisión emprender; antes que nada hicimos una investigación en la comunidad consultando si quizá éramos los únicos con esta necesidad o no, al obtener los resultados nos dimos con
@@ -67,12 +67,12 @@
                         <p class="mb-3 textWidth"> Esto es lo que hacemos, lo que disfrutamos, lo que amamos, nuestro lema de vida hecho realidad “pensar diferente, alimentarse diferente”. Deseamos que disfruten de nuestros productos tanto como nosotros disfrutamos de llevar adelante
                             nuestro proyecto.</p>
                     </div>
-                    <div class="col-lg-6 mx-auto order-1 order-lg-2 mb-1 p-5"><img src="../asset/anita-dami-w.webp" alt="foto de dos personas sentadas en una piedra" class="img-fluid mb-1 shadow rounded" width="520" height="410" data-aos="fade-down-left"></div>
+                    <div class="col-lg-6 mx-auto order-1 order-lg-2 mb-1 p-5 animate__animated animate__bounceInDown"><img src="../asset/anita-dami-w.webp" alt="foto de dos personas sentadas en una piedra" class="img-fluid mb-1 shadow rounded"></div>
                 </div>
 
                 <div class="row align-items-center">
-                    <div class="col-lg-6 mx-auto mb-1 p-5"><img src="../asset/fabrica-promix-webp.webp" alt="imagen de sandwiches de miga en bandejas" class="img-fluid mb-1 shadow rounded" width="520" height="410" data-aos="fade-down-right"></div>
-                    <div class="col-lg-6" data-aos="fade-left">
+                    <div class="col-lg-6 mx-auto mb-1 p-5 animate__animated animate__bounceInUp"><img src="../asset/fabrica-promix-webp.webp" alt="imagen de sandwiches de miga en bandejas" class="img-fluid mb-1 shadow rounded"></div>
+                    <div class="col-lg-6 animate__animated  animate__bounceInRight" data-aos="fade-left">
                         <p class="mb-3 textWidth">Nuestra fábrica está situada en el centro de la ciudad de Córdoba Capital, no tenemos local al público. .</p>
                         <p class="mb-3 textWidth">En ProMix consideramos al veganismo como una filosofía de vida, donde predomina el respeto por todos los seres que habitan nuestro planeta, por nuestra tierra, por nuestros pares, por lo que nos rodea, con los alimentos, como citamos
                             arriba, “pensar diferente, alimentarse diferente”, ser conscientes de lo que consumimos, de lo que utilizamos para alimentar a nuestro cuerpo, de poder elegir hacerlo más saludable; es por ésta razón que alineada a nuestra
@@ -87,7 +87,7 @@
 
 
         </div>
-    </div>
+    </section>
     <!-- Footer -->
     <footer class="footer">
         <div class="footer__legal">
@@ -102,18 +102,11 @@
         </div>
 
     </footer>
+
     <!-- Bootstrap JS-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js " integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
-    <!-- AOS -->
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-        AOS.init({
-            offset: 150, // offset (in px) from the original trigger point
-            delay: 0, // values from 0 to 3000, with step 50ms
-            duration: 600
-        });
-    </script>
+
 </body>
 
 </html>

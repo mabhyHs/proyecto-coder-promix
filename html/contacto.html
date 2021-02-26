@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -10,7 +10,7 @@
     <!-- boostrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <!-- style -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="../sass/css/styles.css">
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&display=swap" rel="stylesheet">
@@ -31,13 +31,13 @@
 
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto my-2 my-lg-0">
+                    <ul class="navbar-nav text-uppercase ml-auto my-2 my-lg-0">
 
-                        <li class="nav-item"><a class="nav-link text-uppercase" href="../index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link text-uppercase" href="./nosotros.html">Nosotros</a></li>
-                        <li class="nav-item"><a class="nav-link text-uppercase" href="./productos.html">Productos</a></li>
-                        <li class="nav-item"><a class="nav-link text-uppercase" href="./contacto.html">Contacto</a></li>
-                        <li class="nav-item"><a class="nav-link text-uppercase" href="./ayuda.html">Ayuda</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./nosotros.html">Nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./productos.html">Productos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./contacto.html">Contacto</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./ayuda.html">Ayuda</a></li>
 
                     </ul>
                 </div>
@@ -49,100 +49,101 @@
     <!-- contacto -->
 
 
-    <section class="container page-section">
-        <div class="row justify-content-center">
-            <div class="col-lg-8 text-center mb-5">
-                <h2 class="mt-0 text-uppercase">Contáctanos</h2>
+    <section class="container">
+        <div class=" page-section">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center mb-5">
+                    <h2 class="mt-0 text-uppercase">Contáctanos</h2>
+                </div>
             </div>
-        </div>
-        <div class="row justify-content-center mb-5 pb-5">
-            <div class="col-lg-6 ml-auto mb-5 mb-lg-0 pr-5 ">
-                <form action="emailto">
-                    <div class="form-group row">
-                        <label for="inputFirstName" class="col-sm-4 col-form-label">Nombre</label>
-                        <div class="col-sm-8 ">
-                            <input type="text" class="form-control" id="inputFirstName" placeholder="Ingrese su nombre" required>
+            <div class="row justify-content-center mb-5 pb-5">
+                <div class="col-lg-6 ml-auto mb-5 mb-lg-0 pr-5 ">
+                    <form action="somepage.php" name="contact">
+                        <div class="form-group row">
+                            <label for="inputFirstName" class="col-sm-4 col-form-label">Nombre</label>
+                            <div class="col-sm-8 ">
+                                <input type="text" class="form-control" id="inputFirstName" placeholder="Ingrese su nombre" required>
+                            </div>
                         </div>
-                    </div>
 
 
-                    <div class="form-group row">
-                        <label for="inputLastName" class="col-sm-4 col-form-label">Apellido</label>
-                        <div class="col-sm-8">
-                            <input type="text" class="form-control" id="inputLastName" placeholder="Ingrese su Apellido" required>
+                        <div class="form-group row">
+                            <label for="inputLastName" class="col-sm-4 col-form-label">Apellido</label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control" id="inputLastName" placeholder="Ingrese su Apellido" required>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="form-group row">
-                        <label for="inputEmail3" class="col-sm-4 col-form-label">Email</label>
-                        <div class="col-sm-8 ">
-                            <input type="email" class="form-control" id="inputEmail3" placeholder="ejemplo@ejemplo.com" pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" title="Porfavor ingrese un E-mail Válido" required>
+                        <div class="form-group row">
+                            <label for="inputEmail" class="col-sm-4 col-form-label">Email</label>
+                            <div class="col-sm-8 ">
+                                <input type="email" class="form-control" id="inputEmail" placeholder="ejemplo@ejemplo.com" pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" title="Porfavor ingrese un E-mail Válido" required>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="form-group row">
-                        <label for="inputPhone" class="col-sm-4 col-form-label">Teléfono</label>
-                        <div class="col-sm-8">
-                            <input type="tel" class="form-control" id="inputPhone" placeholder="Ingrese su teléfono" pattern="[0-9]" required>
+                        <div class="form-group row">
+                            <label for="inputPhone" class="col-sm-4 col-form-label">Teléfono</label>
+                            <div class="col-sm-8">
+                                <input type="tel" class="form-control" id="inputPhone" placeholder="Ej: 3513123456" required>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="form-group row">
-                        <label for="formTextarea" class="col-sm-4 col-form-label">Mensaje</label>
-                        <div class="col-sm-8">
-                            <textarea class="form-control" id="formTextarea" placeholder="Ingrese su mensaje Máx 1000 carácteres" maxlength="1000" required></textarea>
+                        <div class="form-group row">
+                            <label for="formTextarea" class="col-sm-4 col-form-label">Mensaje</label>
+                            <div class="col-sm-8">
+                                <textarea class="form-control" id="formTextarea" placeholder="Ingrese su mensaje Máx 1000 carácteres" maxlength="1000" required></textarea>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="form-group row">
-                        <div class="col-sm-12 text-right">
-                            <button type="reset" class="btn btn-reset">Limpiar</button>
-                            <button type="submit" class="btn btn-primary btn-send">Enviar</button>
+                        <div class="form-group row">
+                            <div class="col-sm-12 text-right">
+                                <button type="reset" class="btn btn-reset">Limpiar</button>
+                                <button type="submit" class="btn btn-primary btn-send">Enviar</button>
+                            </div>
                         </div>
-                    </div>
-                </form>
-            </div>
+                    </form>
+                </div>
 
-            <div class="col-lg-6 ml-auto text-center mb-5 mb-lg-0 pr-5 ">
-                <iframe title="mapa de geolocalización" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.917152252388!2d-64.18490028431258!3d-31.416408603397862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a29cae800df1%3A0x9cc684529a1b17e5!2sBuenos%20Aires%201%2C%20X5022AAA%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1608170840523!5m2!1ses-419!2sar"
-                    style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+                <div class="col-lg-6 ml-auto text-center mb-5 mb-lg-0">
+                    <iframe title="mapa de geolocalización" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.917152252388!2d-64.18490028431258!3d-31.416408603397862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a29cae800df1%3A0x9cc684529a1b17e5!2sBuenos%20Aires%201%2C%20X5022AAA%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1608170840523!5m2!1ses-419!2sar"
+                        style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
                     </iframe>
+                </div>
+            </div>
+
+            <div class="row justify-content-center text-center mx-3 mt-5">
+                <div class="col-lg-3 col-sm-3 border-card">
+                    <div class="mr-3">
+                        <i class="fas fa-map-marked-alt animate__animated animate__flip"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-weight-medium h6">Horario de Atención:</h3>
+                        <p> Lunes a Viernes de 9.00 hs a 18.30 hs. </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-3 border-card">
+                    <div class="mr-3 ">
+                        <i class="fas fa-phone-alt animate__animated animate__flip"></i> </div>
+                    <div>
+                        <h3 class="font-weight-medium h6">Teléfono de Contacto: </h3>
+                        <a class="contact-phone-link" href="https://api.whatsapp.com/send?phone=5493518503145&text=Hola!%20Quisiera%20recibir%20más%20información%20sobre" target="blank"><i class="fab fa-whatsapp wtp-link"></i>  54 9 351 850 3145</a><br>
+                        <a class="contact-phone-link" href="https://api.whatsapp.com/send?phone=5493518503148&text=Hola!%20Quisiera%20recibir%20más%20información%20sobre" target="blank"><i class="fab fa-whatsapp wtp-link"></i>  54 9 351 850 3148</a>
+
+                    </div>
+
+                </div>
+                <div class="col-lg-3 col-sm-3 border-card">
+
+                    <div class="mr-3 ">
+                        <i class="fas fa-envelope-open-text animate__animated animate__flip"></i></div>
+                    <div>
+                        <h3 class="font-weight-medium h6 ">Información:</h3>
+                        <a class="i-color-orange" href="mailto:promixcba@gmail.com">promixcba@gmail.com</a>
+                    </div>
+
+                </div>
             </div>
         </div>
-
-        <div class="row justify-content-center text-center mx-3 mt-5">
-            <div class="col-lg-3 col-sm-3 border-card">
-                <div class="mr-3">
-                    <i class="fas fa-map-marked-alt"></i>
-                </div>
-                <div>
-                    <h3 class="font-weight-medium h6">Horario de Atención:</h3>
-                    <p> Lunes a Viernes de 9.00 hs a 18.30 hs. </p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-3 border-card">
-                <div class="mr-3 ">
-                    <i class="fas fa-phone-alt"></i> </div>
-                <div>
-                    <h3 class="font-weight-medium h6">Teléfono de Contacto: </h3>
-                    <a class="contact-phone-link" href="https://api.whatsapp.com/send?phone=5493518503145&text=Hola!%20Quisiera%20recibir%20más%20información%20sobre" target="blank"><i class="fab fa-whatsapp wtp-link"></i>  54 9 351 850 3145</a><br>
-                    <a class="contact-phone-link" href="https://api.whatsapp.com/send?phone=5493518503148&text=Hola!%20Quisiera%20recibir%20más%20información%20sobre" target="blank"><i class="fab fa-whatsapp wtp-link"></i>  54 9 351 850 3148</a>
-
-                </div>
-
-            </div>
-            <div class="col-lg-3 col-sm-3 border-card">
-
-                <div class="mr-3 ">
-                    <i class="fas fa-envelope-open-text"></i></div>
-                <div>
-                    <h3 class="font-weight-medium h6 ">Información:</h3>
-                    <a class="i-color-orange" href="mailto:promixcba@gmail.com">promixcba@gmail.com</a>
-                </div>
-
-            </div>
-        </div>
-
     </section>
 
     <!-- Footer -->
@@ -162,7 +163,7 @@
     <!-- Bootstrap JS-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js " integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
-
+    <script src="/js/main.js"></script>
 
 </body>
 

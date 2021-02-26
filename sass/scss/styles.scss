@@ -84,6 +84,24 @@
         }
     }
     
+    @keyframes typewriter {
+        from {
+            width: 0;
+        }
+        to {
+            width: 18em;
+        }
+    }
+    
+    @keyframes blinkTextCursor {
+        from {
+            border-right-color: rgba(255, 255, 255, 0.938);
+        }
+        to {
+            border-right-color: transparent;
+        }
+    }
+    
     //GENERAL CONFIG
     .textWidth {
         max-width: 500px;
@@ -133,28 +151,6 @@
         }
     }
     
-    .dropdown-menu {
-        margin-top: 17px;
-        color: $color-light;
-        background-color: #4379B8;
-        a {
-            color: $color-light;
-        }
-    }
-    
-    nav {
-        .btn {
-            width: 130px;
-            margin-right: 10px;
-            padding: .4rem 1rem .4rem 1rem;
-        }
-        .menu {
-            clear: both;
-            max-height: 0;
-            transition: .2s ease-out;
-        }
-    }
-    
     //HOME SECTION
     header.masthead {
         height: 100vh;
@@ -169,10 +165,35 @@
             font-size: 4.5rem;
             font-weight: bolder;
         }
+        p {
+            font-family: 'Philosopher', sans-serif;
+            font-size: 1.7rem;
+            color: $color-light;
+            background-color: #ee8122ef;
+            text-shadow: $text-shadow;
+            padding: 5px;
+            border-radius: 10px;
+        }
     }
     
     a {
         color: #000;
+    }
+    
+    .anim-typewriter {
+        animation: typewriter 4s steps(44) 1s 1 normal both, blinkTextCursor 500ms steps(44) infinite normal;
+    }
+    
+    .line-1 {
+        position: relative;
+        top: 50%;
+        width: 18em;
+        margin: 0 auto;
+        border-right: 2px solid rgba(255, 255, 255, .75);
+        text-align: center;
+        white-space: nowrap;
+        overflow: hidden;
+        transform: translateY(-50%);
     }
     
     .contentBanner {
@@ -185,14 +206,10 @@
             z-index: 1;
             display: block;
             margin: 0;
-            padding: 80px 0 50px 0;
+            padding: 30px 0 50px 0;
             transform: translateY(15rem);
             animation: up 500ms linear forwards;
             color: $color-light;
-            text-shadow: $text-shadow;
-        }
-        h2 {
-            color: $main-color;
             text-shadow: $text-shadow;
         }
     }
@@ -237,14 +254,6 @@
     }
     
     //ABOUT US SECTION
-    .aboutUs {
-        img {
-            width: 100%;
-            background-color: $color-light;
-            box-shadow: $box-shadow-img;
-        }
-    }
-    
     .owners {
         p {
             text-align: center;
@@ -273,7 +282,7 @@
             position: absolute;
             width: 100%;
             height: 100%;
-            background: rgba(254, 209, 54, 0.9);
+            background: rgba(254, 167, 54, 0.9);
             align-items: center;
             justify-content: center;
             opacity: 0;
@@ -344,12 +353,6 @@
     }
     
     //CONTACT US SECTION
-    .container-center {
-        margin: 0 auto;
-        padding-top: 90px;
-        padding-bottom: 60px;
-    }
-    
     form {
         padding: 20px;
         input[type=text],
@@ -506,6 +509,7 @@
             background-size: cover;
             h1 {
                 font-size: 8rem;
+                padding-top: 90px;
             }
             i {
                 font-size: 5rem;
@@ -519,6 +523,10 @@
             padding-top: 10rem;
             h1 {
                 font-size: 8rem;
+                padding-top: 80px;
+            }
+            p {
+                font-size: 2.8rem;
             }
             .drawer {
                 width: $drawer-width;

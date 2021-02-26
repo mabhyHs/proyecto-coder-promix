@@ -411,6 +411,18 @@ a {
   100% {
     transform: translateY(0); } }
 
+@keyframes typewriter {
+  from {
+    width: 0; }
+  to {
+    width: 18em; } }
+
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.938); }
+  to {
+    border-right-color: transparent; } }
+
 .textWidth {
   max-width: 500px;
   margin: 0 auto;
@@ -444,23 +456,6 @@ a {
     padding: .75rem 0;
     color: #383838; }
 
-.dropdown-menu {
-  margin-top: 17px;
-  color: whitesmoke;
-  background-color: #4379B8; }
-  .dropdown-menu a {
-    color: whitesmoke; }
-
-nav .btn {
-  width: 130px;
-  margin-right: 10px;
-  padding: .4rem 1rem .4rem 1rem; }
-
-nav .menu {
-  clear: both;
-  max-height: 0;
-  transition: .2s ease-out; }
-
 header.masthead {
   height: 100vh;
   padding-top: 8rem;
@@ -473,9 +468,31 @@ header.masthead {
   header.masthead h1 {
     font-size: 4.5rem;
     font-weight: bolder; }
+  header.masthead p {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 1.7rem;
+    color: whitesmoke;
+    background-color: #ee8122ef;
+    text-shadow: 1px 1px 3px #333333;
+    padding: 5px;
+    border-radius: 10px; }
 
 a {
   color: #000; }
+
+.anim-typewriter {
+  animation: typewriter 4s steps(44) 1s 1 normal both, blinkTextCursor 500ms steps(44) infinite normal; }
+
+.line-1 {
+  position: relative;
+  top: 50%;
+  width: 18em;
+  margin: 0 auto;
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%); }
 
 .contentBanner .drawer {
   display: none; }
@@ -486,14 +503,10 @@ a {
   z-index: 1;
   display: block;
   margin: 0;
-  padding: 80px 0 50px 0;
+  padding: 30px 0 50px 0;
   transform: translateY(15rem);
   animation: up 500ms linear forwards;
   color: whitesmoke;
-  text-shadow: 1px 1px 3px #333333; }
-
-.contentBanner h2 {
-  color: #f1a15b;
   text-shadow: 1px 1px 3px #333333; }
 
 .btn-green-block {
@@ -529,11 +542,6 @@ a {
     padding: 7px;
     text-shadow: 1px 1px 3px #333333; }
 
-.aboutUs img {
-  width: 100%;
-  background-color: whitesmoke;
-  box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.2); }
-
 .owners p {
   text-align: center; }
 
@@ -554,7 +562,7 @@ a {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: rgba(254, 209, 54, 0.9);
+    background: rgba(254, 167, 54, 0.9);
     align-items: center;
     justify-content: center;
     opacity: 0;
@@ -609,11 +617,6 @@ a {
   list-style: none;
   font-size: 2rem;
   line-height: 1.6; }
-
-.container-center {
-  margin: 0 auto;
-  padding-top: 90px;
-  padding-bottom: 60px; }
 
 form {
   padding: 20px; }
@@ -792,7 +795,8 @@ iframe {
     background-position: center;
     background-size: cover; }
     header.masthead h1 {
-      font-size: 8rem; }
+      font-size: 8rem;
+      padding-top: 90px; }
     header.masthead i {
       font-size: 5rem; } }
 
@@ -801,7 +805,10 @@ iframe {
     background: url("/asset/bg-desktop-webp.webp");
     padding-top: 10rem; }
     header.masthead h1 {
-      font-size: 8rem; }
+      font-size: 8rem;
+      padding-top: 80px; }
+    header.masthead p {
+      font-size: 2.8rem; }
     header.masthead .drawer {
       width: 180px;
       height: 60px;
